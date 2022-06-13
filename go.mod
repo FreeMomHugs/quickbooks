@@ -5,7 +5,6 @@ go 1.18
 
 require (
 	github.com/FreeMomHugs/myFMHInternal v1.1.6
-	github.com/FreeMomHugs/quickbooks v0.0.1
 	github.com/google/uuid v1.3.0
 	google.golang.org/appengine/v2 v2.0.1
 )
