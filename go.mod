@@ -2,13 +2,10 @@ module github.com/FreeMomHugs/quickbooks
 
 go 1.18
 
-replace github.com/FreeMomHugs/quickbooks/qbdatastore => ../quickbooks/qbdatastore
-
-replace github.com/FreeMomHugs/quickbooks/models => ./models
 
 require (
 	github.com/FreeMomHugs/myFMHInternal v1.1.6
-	github.com/FreeMomHugs/quickbooks/qbdatastore v0.0.0-00010101000000-000000000000
+	github.com/FreeMomHugs/quickbooks v0.0.1
 	github.com/google/uuid v1.3.0
 	google.golang.org/appengine/v2 v2.0.1
 )
